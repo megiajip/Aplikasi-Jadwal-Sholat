@@ -1,0 +1,217 @@
+<resources>
+    <!-- Tous les éléments dans ces balises sont pour aider à la traduction -->
+    <!-- Il ne faut pas les traduire -->
+
+    <!-- Si vous utilisez l'alphabet latin, merci de ne pas traduire -->
+    <!-- Si vous utilisez un alphabet non latin, merci de traduire le son muslim companion dans votre alphabet -->
+    <!-- Par exemple, la traduction en arabe est : مسلم كومبانيون -->
+    <string name="app_name">Muslim Companion</string>
+
+    <string name="cancel">Annuler</string>
+
+    <!-- Affiché pour inciter l'utilisateur à patienter durant la géolocalisation -->
+    <string name="geolocating">Geolocalisation</string>
+    <string name="geolocation_needed">Localisation nécessaire</string>
+    <string name="allow_location">Autoriser l\'accès à la localisation</string>
+    <string name="location_details_salat">L\'heure de prière dépend de votre localisation</string>
+    <string name="location_details_qibla">La Qibla dépend de votre localisation</string>
+    <string name="location_required_message">L\'application nécessite que la localisation soit active</string>
+    <string name="location_required_title">Activez la localisation</string>
+
+    <string name="settings">Paramètres</string>
+
+    <!-- Pour indiquer que le mode de calcul de prière est automatique -->
+    <string name="automatic">Automatique</string>
+
+
+    <string name="qibla_below_compass">Qibla :&#160;</string>
+    <string name="qibla">Qibla</string>
+
+    <!-- %d est à garder tel quel: c'est l'angle de la Qibla affiché -->
+    <!-- %d°N produira l'affichage 35°N -->
+    <string name="angle">%d°N</string>
+
+    <!-- Abbreviation de Nord : destiné à être affiché sur une boussole -->
+    <string name="north_abbreviation">N</string>
+    <!-- Abbreviation de Sud : destiné à être affiché sur une boussole -->
+    <string name="south_abbreviation">S</string>
+    <!-- Abbreviation de Est : destiné à être affiché sur une boussole -->
+    <string name="east_abbreviation">E</string>
+    <!-- Abbreviation de Ouest : destiné à être affiché sur une boussole -->
+    <string name="west_abbreviation">O</string>
+
+    <string name="qibla_at">Qibla à %s</string>
+    <!-- %1$s est pour le jour de la date, %2$s est pour l'heure -->
+    <string name="last_geolocation_on">Dernière géolocalisation : %1$s à %2$s</string>
+
+    <string name="prayer_times">Heures de prière</string>
+    <string name="salat">Salat</string>
+
+    <!-- Garder %s tel quel, il s'agira du nom de la ville -->
+    <string name="salat_at">Salat à %s</string>
+
+    <!-- Format de date grégorienne -->
+    <!-- %2$d est pour le numéro du jour -->
+    <!-- %1$s est pour le nom du mois -->
+    <!-- %3$d est pour le numéro de l'année -->
+    <!-- %4$s est pour le suffixe du jour -->
+    <!-- %2$d%4$s %1$s %3$d => 1er Mai 2015 -->
+    <!-- %1$s %2$d%4$s %3$d => Mai 1er 2015 -->
+    <!-- %3$d %1$s %2$d%4$s => 2015 Mai 1er -->
+    <string name="gregorian_date_format" formatted="false">%2$d%4$s %1$s %3$d</string>
+
+    <!-- Format de date islamique -->
+    <!-- %1$d est pour le numéro du jour -->
+    <!-- %2$s est pour le nom du mois -->
+    <!-- %3$d est pour le numéro de l'année -->
+    <!-- %1$d %2$s %3$d => 2 Chaabane 1436 -->
+    <!-- %2$s %1$d %3$d => Chaabane 2 2015 -->
+    <!-- %3$d %2$s %1$d => 2015 Mai 2 -->
+    <string name="islamic_date_format" formatted="false">%1$d %2$s %3$d</string>
+
+    <string name="prayer_name_fajr">Fajr</string>
+    <string name="prayer_name_sunrise">Shorouq</string>
+    <string name="prayer_name_dhuhr">Dohr</string>
+    <string name="prayer_name_jumuah">Jumu\'a</string>
+    <string name="prayer_name_asr">Asr</string>
+    <string name="prayer_name_maghrib">Maghreb</string>
+    <string name="prayer_name_isha">Icha</string>
+    <string name="prayer_name_isha_and_fajr">Icha et Fajr</string>
+
+    <string name="prayer_notification_content">%1$s : %2$s à %3$s</string>
+
+    <string-array name="islamic_month">
+        <item />
+        <item>Mouharram</item>
+        <item>Safar</item>
+        <item>Rabia al awal</item>
+        <item>Rabia ath-thani</item>
+        <item>Joumada al oula</item>
+        <item>Joumada ath-thania</item>
+        <item>Rajab</item>
+        <item>Chaabane</item>
+        <item>Ramadan</item>
+        <item>Chawwal</item>
+        <item>Dhou al qi`da</item>
+        <item>Dhou al-hijja</item>
+    </string-array>
+
+    <string-array name="gregorian_month">
+        <item />
+        <item>Janvier</item>
+        <item>Février</item>
+        <item>Mars</item>
+        <item>Avril</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juillet</item>
+        <item>Août</item>
+        <item>Septembre</item>
+        <item>Octobre</item>
+        <item>Novembre</item>
+        <item>Décembre</item>
+    </string-array>
+
+    <string name="convention">Convention</string>
+    <string name="asr_juristic_method">Méthode de calcul d\'Al Asr</string>
+    <string name="higher_latitude_method">Méthode de calcul pour les latitudes élevées</string>
+
+    <string name="convention_name_mwl">Ligue Islamique Mondiale (L.I.M.)</string>
+    <string name="convention_name_isna">Islamic Society of North America (I.S.N.A.)</string>
+    <string name="convention_name_egypt">Autorité Générale Égyptienne d\'Arpentage</string>
+    <string name="convention_name_makkah">Université Oumm al-Qura, La Mecque</string>
+    <string name="convention_name_karachi">Université des Sciences Islamiques, Karachi</string>
+    <string name="convention_name_tehran">Institut de Géophysique, Université de Téhéran</string>
+    <string name="convention_name_jafari">Shia Ithna Ashari, Institut de Recherche Leva, Qom</string>
+    <string name="convention_name_algeria">Ministère des Affaires Religieuses et des Wakfs, Algérie</string>
+    <string name="convention_name_morocco">Ministère des Habous et des Affaires Islamiques, Maroc</string>
+    <string name="convention_name_tunisia">Ministère des Affaires Religieuses, Tunisie</string>
+    <string name="convention_name_south_east_asia">Règles de calcul d\'Asie du Sud-Est</string>
+    <string name="convention_name_uoif">Union des Organisations Islamiques de France</string>
+    <string name="convention_name_turkey">Présidence des Affaires Religieuses, Turquie</string>
+    <string name="convention_name_oman">Ministère des dotations et des Affaires Religieuses, Oman</string>
+    <string name="convention_name_emirates">Autorité Générale des Affaires Religieused &amp; des Dotations, E.A.U.</string>
+    <string name="convention_name_dubai">Département des Affaires Islamiques et des Activités Charitables, Dubaï</string>
+    <string name="convention_name_jordan">Ministère de l\'Awqaf, des Affaires Islamiques et des lieux Saints, Jordanie</string>
+    <string name="convention_name_kuwait">Ministère de l\'Awqaf et des Affaires Islamiques, Kuwait</string>
+    <string name="convention_name_qatar">Maison des Calendrier du Qatar</string>
+    <string name="convention_name_lybia">Ministères des Dotations et des Affaires Islamiques, Lybie</string>
+    <string name="convention_name_maldives">Ministère des Affaires Islamiques, Maldives</string>
+    <string name="convention_name_birmingham">Mosquée Centrale de Birmingham</string>
+    <string name="convention_name_london">Mosquée Centrale de Londres</string>
+    <string name="convention_name_munich">Munich, Allemagne</string>
+    <string name="convention_name_paris">Grande Mosquée de Paris</string>
+    <string name="convention_name_quebec">Centre Islamique du Québec</string>
+    <string name="convention_name_kurdistan">Kurdistan</string>
+
+    <string name="convention_city_aqrah">Aqrah</string>
+    <string name="convention_city_darbandikhan">Darbandikhan</string>
+    <string name="convention_city_dohuk">Dahuk</string>
+    <string name="convention_city_erbil">Erbil</string>
+    <string name="convention_city_halabja">Halabja</string>
+    <string name="convention_city_kifri">Kifri</string>
+    <string name="convention_city_kirkuk">Kirkouk</string>
+    <string name="convention_city_koy_sanjaq">Koy Sanjaq</string>
+    <string name="convention_city_qaladiza">Qaladze</string>
+    <string name="convention_city_sulaymaniyah">Souleimaniye</string>
+    <string name="convention_city_zakho">Zakho</string>
+
+    <string name="asr_not_hanafi">Shafii, Maliki, Jafari, et Hanbali</string>
+    <string name="asr_hanafi">Hanafi</string>
+
+    <string name="method_angle_based">Basée sur l\'angle</string>
+    <string name="method_middle_of_night">Moitié de la nuit</string>
+    <string name="method_seventh">Septième de la nuit</string>
+
+    <string name="prayer_notification">Notifications des prières</string>
+
+    <string name="prayer_notification_enabled">Notifications activées</string>
+    <string name="prayer_notification_disabled">Notifications desactivées</string>
+
+    <string name="prayer_notification_sound">Son de notification</string>
+    <string name="sound_none">Aucun</string>
+    <string name="sound_android_default">Son Android par défaut</string>
+    <string name="sound_adhan">Adhan</string>
+
+    <string name="jumuah_first_call">Premier appel de Jumu\'a</string>
+    <string name="jumuah_first_call_disabled">Désactivé</string>
+
+    <string name="minutes_before_jumuah">%d minutes avant Jumu\'a</string>
+
+    <string name="quran">Le Coran</string>
+
+    <string-array name="day_number_suffix">
+        <item />
+        <item>er</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </string-array>
+</resources>
